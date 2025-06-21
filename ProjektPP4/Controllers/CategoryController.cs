@@ -15,6 +15,13 @@ namespace ProjektPP4.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll() => Ok(await _context.Categories.ToListAsync());
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            return category == null ? NotFound() : Ok(category);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
         {
@@ -42,5 +49,4 @@ namespace ProjektPP4.Controllers
             return NoContent();
         }
     }
-
 }

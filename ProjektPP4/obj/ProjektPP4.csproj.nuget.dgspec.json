@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kogut\\Source\\Repos\\PP4-Projekt\\ProjektPP4\\ProjektPP4.csproj": {}
+    "C:\\Users\\kogut\\source\\repos\\PP4-Projekt\\Projekt\\ProjektPP4\\ProjektPP4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kogut\\Source\\Repos\\PP4-Projekt\\ProjektPP4\\ProjektPP4.csproj": {
+    "C:\\Users\\kogut\\source\\repos\\PP4-Projekt\\Projekt\\ProjektPP4\\ProjektPP4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kogut\\Source\\Repos\\PP4-Projekt\\ProjektPP4\\ProjektPP4.csproj",
+        "projectUniqueName": "C:\\Users\\kogut\\source\\repos\\PP4-Projekt\\Projekt\\ProjektPP4\\ProjektPP4.csproj",
         "projectName": "ProjektPP4",
-        "projectPath": "C:\\Users\\kogut\\Source\\Repos\\PP4-Projekt\\ProjektPP4\\ProjektPP4.csproj",
+        "projectPath": "C:\\Users\\kogut\\source\\repos\\PP4-Projekt\\Projekt\\ProjektPP4\\ProjektPP4.csproj",
         "packagesPath": "C:\\Users\\kogut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kogut\\Source\\Repos\\PP4-Projekt\\ProjektPP4\\obj\\",
+        "outputPath": "C:\\Users\\kogut\\source\\repos\\PP4-Projekt\\Projekt\\ProjektPP4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"

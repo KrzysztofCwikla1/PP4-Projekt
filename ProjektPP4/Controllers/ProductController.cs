@@ -13,12 +13,12 @@ namespace ProjektPP4.Controllers
         public ProductController(AppDbContext context) => _context = context;
 
         [HttpGet]
-        public async Task<IActionResult> GetAll() => Ok(await _context.Products.Include(p => p.Id).ToListAsync());
+        public async Task<IActionResult> GetAll() => Ok(await _context.Products.Include(p => p.Category).ToListAsync());
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var product = await _context.Products.Include(p => p.Id).FirstOrDefaultAsync(p => p.Id == id);
+            var product = await _context.Products.Include(p => p.Category).FirstOrDefaultAsync(p => p.Id == id);
             return product == null ? NotFound() : Ok(product);
         }
 
@@ -27,7 +27,7 @@ namespace ProjektPP4.Controllers
         {
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+            return Ok(product);
         }
 
         [HttpPut("{id}")]
@@ -49,6 +49,4 @@ namespace ProjektPP4.Controllers
             return NoContent();
         }
     }
-
 }
-

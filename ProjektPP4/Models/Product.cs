@@ -9,6 +9,7 @@
         public int Stock { get; set; } = 0;
         public string Sku { get; set; } = string.Empty;
         public Category Category { get; set; } = default!;
+        public int CategoryId { get; set; } = 1;
         public string Material { get; set; } = string.Empty;
         public string Size { get; set; } = string.Empty;
         public string Type { get; set; } = string.Empty;
