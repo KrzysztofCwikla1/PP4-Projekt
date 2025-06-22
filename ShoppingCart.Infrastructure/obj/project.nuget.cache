@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6OnEWoXn3oI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kogut\\source\\repos\\PP4-Projekt\\Projekt\\ShoppingCart.Infrastructure\\ShoppingCart.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kogut\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\kogut\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\kogut\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\bin\Debug\net8.0\ShoppingCart.Infrastructure.deps.json
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\bin\Debug\net8.0\ShoppingCart.Infrastructure.dll
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\bin\Debug\net8.0\ShoppingCart.Infrastructure.pdb
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\bin\Debug\net8.0\ShoppingCart.Domain.dll
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\bin\Debug\net8.0\ShoppingCart.Domain.pdb
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.AssemblyInfo.cs
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.sourcelink.json
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\Shopping.C1EB8185.Up2Date
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.dll
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\refint\ShoppingCart.Infrastructure.dll
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ShoppingCart.Infrastructure.pdb
+C:\Users\kogut\source\repos\PP4-Projekt\Projekt\ShoppingCart.Infrastructure\obj\Debug\net8.0\ref\ShoppingCart.Infrastructure.dll

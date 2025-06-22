@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "ShoppingCart.Controllers.CartController",
+    "Method": "GetAllCarts",
+    "RelativePath": "api/Cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShoppingCart.Controllers.CartController",
+    "Method": "GetCart",
+    "RelativePath": "api/Cart/{cartId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShoppingCart.Controllers.CartController",
+    "Method": "AddProductToCart",
+    "RelativePath": "api/Cart/add-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ShoppingCart.Domain.Commands.AddProductToCartCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ShoppingCart.Controllers.CartController",
+    "Method": "RemoveProductFromCart",
+    "RelativePath": "api/Cart/remove-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ShoppingCart.Domain.Commands.RemoveProductFromCartCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
